@@ -6,7 +6,7 @@
 }
 
 b{
-  color: #F20505;
+  color: #10FDEE;
 }
  
   .bebas-neue-regular {
@@ -17,13 +17,15 @@ b{
 
 
 header{
-  background-color: black;
+  background-color: #0D0D0D;
   display: flex;
+  height: 60px;
   
 }
 
 .logo{
   margin-left: 100px;
+  margin-top: 5px;
   
 }
 
@@ -41,7 +43,7 @@ header{
 body{
 display: flex;
 flex-direction: column;
-background-color: rgb(0, 0, 0);
+background-color: #0D0D0D;
 color: rgb(255, 255, 255);
 
 }
@@ -74,8 +76,20 @@ color: rgb(255, 255, 255);
 }
 
 .titulo{
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-size: 50px;  
+}
+
+h2 .Sou{
+  white-space: nowrap;
+}
+
+.imagem h1{
+  white-space: nowrap;
+  font-size: 50px; 
+
 }
 
 
